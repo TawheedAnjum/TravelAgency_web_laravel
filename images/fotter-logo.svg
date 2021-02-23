@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117.68" height="39.106" viewBox="0 0 117.68 39.106">
+  <g id="fotter-logo" transform="translate(-140.25 -57.43)">
+    <g id="travel" transform="translate(140.25 57.43)">
+      <path id="Path_356" data-name="Path 356" d="M142.285,156.741a19.007,19.007,0,0,1-8.852,16.087c-.209.139-.418.265-.627.39a19.1,19.1,0,0,1-7.75,2.509q-.92.084-1.84.084a19.062,19.062,0,0,1-19.07-19.07,17.956,17.956,0,0,1,.209-2.76,14.549,14.549,0,0,1,.292-1.589,19.248,19.248,0,0,1,.878-2.8c.209-.488.432-.976.669-1.45a17.989,17.989,0,0,1,2.063-3.206c.335-.432.7-.85,1.074-1.254a19.063,19.063,0,0,1,32.954,13.062Z" transform="translate(-104.145 -136.705)" fill="#011e3f"/>
+      <g id="Group_118" data-name="Group 118" transform="translate(14.512 7.546)">
+        <path id="Path_357" data-name="Path 357" d="M140.715,152.888l1.84,6.51-3.206-6.51Z" transform="translate(-138.638 -152.888)" fill="#fc9a16"/>
+        <path id="Path_358" data-name="Path 358" d="M166.534,183.333a18.958,18.958,0,0,1-7.611,9.312l-9.87-20.06L165.628,183Z" transform="translate(-144.146 -164.068)" fill="#fc9a16"/>
+        <path id="Path_359" data-name="Path 359" d="M152.649,181.813l-.795.042-.613.042-13.118-20.7-.418-8.308h.711l3.206,6.51.474,1.687.516.321,9.87,20.06Z" transform="translate(-137.705 -152.888)" fill="#fc9a16"/>
+      </g>
+      <path id="Path_360" data-name="Path 360" d="M149.366,181.855a19.1,19.1,0,0,1-7.75,2.509l-2.524-6.858-1.394-3.792-1.2-3.262-1.115-3.053-1.91-5.186-.153-.418.014-.251.139-3.68.028-.516.181-4.391v-.07h1.533l.418,8.308,13.118,20.7Z" transform="translate(-120.705 -145.342)" fill="#fff"/>
+      <path id="Path_361" data-name="Path 361" d="M130.48,186.448h-5.8v1.394A4.653,4.653,0,0,0,128,189.5h3.6Z" transform="translate(-115.801 -164.391)" fill="#fff"/>
+      <path id="Path_362" data-name="Path 362" d="M134.188,204.844h-5.771l-3.736-1.9v-1.9h8.113Z" transform="translate(-115.801 -172.68)" fill="#fff"/>
+      <path id="Path_363" data-name="Path 363" d="M122.786,152.193l-.265.014-8.866.613c.335-.432.7-.85,1.074-1.254l7.792.613Z" transform="translate(-109.543 -144.592)" fill="#fff"/>
+      <path id="Path_364" data-name="Path 364" d="M118.753,162.454l-.028.516-11.389.362c.209-.488.432-.976.669-1.45Z" transform="translate(-105.956 -150.447)" fill="#fff"/>
+      <path id="Path_365" data-name="Path 365" d="M117.189,172.9l-12.56.4a14.545,14.545,0,0,1,.292-1.589l12.128.516Z" transform="translate(-104.42 -156.028)" fill="#fff"/>
+      <text id="travel-2" data-name="travel" transform="translate(40.68 30)" fill="#fff" font-size="31" font-family="Calibri-BoldItalic, Calibri" font-weight="700" font-style="italic"><tspan x="0" y="0">travel</tspan></text>
+    </g>
+  </g>
+</svg>

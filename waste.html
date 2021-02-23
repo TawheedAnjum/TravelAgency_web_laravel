@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Agency</title>
+
+    <!-- bosstrap css -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <!-- datepicker -->
+    <link rel="stylesheet" href="css/date.css" />
+    <!-- fontaswam -->
+    <link rel="stylesheet" href="font/all.css""/>
+    <!-- roboto font -->
+    <link rel="stylesheet" href="../font/roboto.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/home.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="container mb-5">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light mb-0 pb-0">
+        <a class="navbar-brand" href="#"
+          ><img class="img-fluid" src="images/logo.svg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle
+          navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mr-3">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-lg reg-btn px-3 py-2">
+                Register
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr style="background-color: #011e3f" />
+
+      <!-- header -->
+      <div class="header m-3">
+        <div class="row d-flex justify-content-center mt-4">
+          <div class="col-md-5 pl-1 mt-4 pt-5 ml-5">
+            <div class="row" style="color: #5196a6; font-weight: 700">
+              Amazing Places
+            </div>
+            <div class="row mt-2">
+              <h1 style="font-size: 3.5rem; font-weight: 900">
+                Make Your Trip <br />
+                Fun & Noted
+              </h1>
+            </div>
+            <div class="row mt-2">
+              <p
+                style="font-weight: 500; font-size: 1.2rem; line-height: 1.5rem"
+              >
+                Travel has us to understand the meaning of life and it has
+                helped us become better people. Each time we travel, we see the
+                word with new eyes
+              </p>
+            </div>
+            <div class="row mt-3">
+              <form autocomplete="off">
+                <div class="row ml-1">
+                  <div class="col-md-6 m-0 p-0">
+                    <input
+                      class="py-2 pl-3"
+                      type="text"
+                      placeholder="Destination"
+                    />
+                    <i
+                      class="far fa-map header-icon"
+                      style="font-size: 0.7rem"
+                    ></i>
+                  </div>
+                  <div class="col-md-6 m-0 p-0">
+                    <input
+                      class="py-2 pl-3 date"
+                      type="text"
+                      placeholder="Start
+                      Time"
+                      id="datepicker"
+                    />
+                    <i
+                      class="far fa-calendar header-icon"
+                      style="font-size: 0.9rem"
+                    ></i>
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col">
+                    <button type="submit" class="btn btn-block py-2 search-btn">
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-md-6 header-img pt-5 mt-1 ml-auto mr-0">
+            <div class="row mt-3">
+              <div class="col">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      class="img-fluid"
+                      src="images/header-1.jpg"
+                      width="250px"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col">
+                    <img
+                      class="img-fluid"
+                      src="images/header-2.jpg"
+                      width="250px"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col mr-4">
+                <img
+                  src="images/header-3.jpg"
+                  class="img-fluid pt-4 mt-2"
+                  width="250px"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About us -->
+    <div class="main mt-5">
+      <div class="us">
+        <div class="container py-5">
+          <div class="row d-flex align-items-center py-5">
+            <div class="col-md-5">
+              <img
+                class="img-fluid img-redius h-75"
+                src="images/abut-us.jpg"
+                height="460px"
+                wight="500px"
+                alt="About
+                us"
+              />
+            </div>
+            <div class="col-7">
+              <h1 style="font-weight: 900">About Us</h1>
+              <p>
+                Top Tour Operators and Travel Agency. We offering in total 300
+                Tours and holidays throughout the word. Combined we have receive
+                1532 Customer reviews and an average ratting of 5 star
+              </p>
+              <p>
+                Travel has helped us to understand the meaning of life and it
+                has heled us become better people. Each time we travel we see
+                the world with new eyes
+              </p>
+
+              <div class="row my-4">
+                <div class="col-md-4">
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i
+                        class="fas fa-suitcase-rolling"
+                        style="color: #5196a6"
+                      ></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >Safety Travel System</span
+                      >
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i class="fas fa-paper-plane" style="color: #5196a6"></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >Expert Trip Plan</span
+                      >
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i class="far fa-check-circle" style="color: #5196a6"></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >Right Solution & Guid</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i
+                        class="fas fa-hand-holding-usd"
+                        style="color: #5196a6"
+                      ></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >Budget Friendlu Tour</span
+                      >
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i class="fas fa-comments" style="color: #5196a6"></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >Fast Communication</span
+                      >
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col">
+                      <i class="fas fa-hands-helping" style="color: #5196a6"></i
+                      ><span class="ml-2" style="font-weight: 500"
+                        >24/7 Customer Service</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="button-group">
+                <button class="btn us-btn rounded-pill py-3 px-5 mr-4">
+                  Contact Us
+                </button>
+                <button class="btn us-btn rounded-pill py-3 px-5">
+                  See Blogs
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about us end -->
+
+      <!-- destination start -->
+      <div class="destination container mt-5 py-5 mb-5">
+        <h1 style="font-weight: 900; text-align: center">Destination</h1>
+        <p class="text-center" style="font-weight: 500">
+          Travel has us to understand the meaning of life and it has helped us
+          become <br />
+          better people. Each time we travel, we see the word with new eyes
+        </p>
+
+        <div class="accordion mt-5" id="accordionExample">
+          <ul
+            class="list-group list-group-horizontal d-flex justify-content-center"
+          >
+            <li class="list-group-item active">
+              <a
+                class="pb-1"
+                href="#"
+                data-toggle="collapse"
+                data-target="#all"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+                >All</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                class="pb-1 collapsed"
+                href="#"
+                data-toggle="collapse"
+                data-target="#budget"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+                >Budget Friendly</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                class="pb-1 collapsed"
+                href="#"
+                data-toggle="collapse"
+                data-target="#royel"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+                >Royel</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                class="pb-1 collapsed"
+                href="#"
+                data-toggle="collapse"
+                data-target="#recomanded"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+                >Recomanded</a
+              >
+            </li>
+          </ul>
+
+          <!-- All -->
+          <div
+            id="all"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="row p-2 mx-4">
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-1.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Metropolitan
+                        City, Turin</small
+                      >
+                    </p>
+                    <h5 class="card-title">Piazza Castello</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-2.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>United Arab
+                        Emirates</small
+                      >
+                    </p>
+                    <h5 class="card-title">Burj Khalifa</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>5 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>110+
+                      </span>
+                      <span class="money">$1200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-3.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA
+                      </small>
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>130+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-4.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA</small
+                      >
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-5.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Santorini,
+                        Oia, Greece</small
+                      >
+                    </p>
+                    <h5 class="card-title">Santorini, Oia, Greece</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>7 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>120+
+                      </span>
+                      <span class="money">$300</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-6.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Gulf Of
+                        Thailand, Thailand</small
+                      >
+                    </p>
+                    <h5 class="card-title">Gulf of Thailand</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fa fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>4 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>240+
+                      </span>
+                      <span class="money">$800</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Budget -->
+          <div
+            id="budget"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="row p-2 mx-4">
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-1.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Metropolitan
+                        City, Turin</small
+                      >
+                    </p>
+                    <h5 class="card-title">Piazza Castello</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-2.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>United Arab
+                        Emirates</small
+                      >
+                    </p>
+                    <h5 class="card-title">Burj Khalifa</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>5 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>110+
+                      </span>
+                      <span class="money">$1200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-3.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA
+                      </small>
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>130+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-4.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA</small
+                      >
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-5.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Santorini,
+                        Oia, Greece</small
+                      >
+                    </p>
+                    <h5 class="card-title">Santorini, Oia, Greece</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>7 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>120+
+                      </span>
+                      <span class="money">$300</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Royel -->
+          <div
+            id="royel"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="row p-2 mx-4">
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-2.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>United Arab
+                        Emirates</small
+                      >
+                    </p>
+                    <h5 class="card-title">Burj Khalifa</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>5 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>110+
+                      </span>
+                      <span class="money">$1200</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-3.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA
+                      </small>
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>130+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-4.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA</small
+                      >
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-5.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Santorini,
+                        Oia, Greece</small
+                      >
+                    </p>
+                    <h5 class="card-title">Santorini, Oia, Greece</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>7 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>120+
+                      </span>
+                      <span class="money">$300</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- recomanded -->
+          <div
+            id="recomanded"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="row p-2 mx-4">
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-3.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA
+                      </small>
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>130+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-4.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>California
+                        Street, USA</small
+                      >
+                    </p>
+                    <h5 class="card-title">Sloped California</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>3 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>160+
+                      </span>
+                      <span class="money">$700</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-5.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Santorini,
+                        Oia, Greece</small
+                      >
+                    </p>
+                    <h5 class="card-title">Santorini, Oia, Greece</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>7 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>120+
+                      </span>
+                      <span class="money">$300</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 mt-4 pt-1">
+                <div class="card" style="width: 20rem">
+                  <img
+                    src="images/card-6.jpg"
+                    class="card-img-top"
+                    alt="destination-1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">
+                      <small
+                        ><i class="fas fa-map-marker-alt mr-1"></i>Gulf Of
+                        Thailand, Thailand</small
+                      >
+                    </p>
+                    <h5 class="card-title">Gulf of Thailand</h5>
+                    <p class="rating card-text">
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fa fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </p>
+                    <p class="card-text">
+                      A wonderful little cottage right the seashore perfect for
+                      exploring
+                    </p>
+                    <hr style="background-color: #011e3f" />
+                    <div class="lower d-flex justify-content-between">
+                      <span class="card-text">
+                        <i class="far fa-clock fa-xs mr-1"></i>4 Days
+                        <i class="far fa-user fa-xs mr-1 ml-3"></i>240+
+                      </span>
+                      <span class="money">$800</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- destination end -->
+
+      <!-- video -->
+      <div class="video my-5 py-5">
+        <div class="card text-white">
+          <img
+            src="/images/video.jpg"
+            class="card-img video img-fluid"
+            alt="video"
+          />
+
+          <div class="card-img-overlay">
+            <h1
+              class="card-text text-center"
+              style="color: #91d7f1; font-size: 5rem"
+            >
+              <i class="far fa-play-circle"></i>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- video end -->
+
+    <!-- Team -->
+      <div class="team container py-5 mt-5">
+        <h1 clas="" style="font-weight: 900; text-align: center">Our Team & Guid</h1>
+        <p class="text-center" style="font-weight: 500">
+          Travel has us to understand the meaning of life and it has helped us
+          become <br />
+          better people. Each time we travel, we see the word with new eyes
+        </p>
+
+        
+      </div>
+
+    <!-- team end -->
+
+    <hr class="mt-5" />
+    <!-- bosstrap js -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("li").click(function () {
+          $("li.list-group-item.active").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+    <script src="js/date.js"></script>
+
+    <script>
+      $(function () {
+        $(" #datepicker ").datepicker({
+          changeMonth: true,
+        });
+      });
+    </script>
+  </body>
+</html>

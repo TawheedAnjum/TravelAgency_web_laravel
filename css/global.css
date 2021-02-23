@@ -1,0 +1,49 @@
+@import "../font/roboto.css";
+
+body{
+    height: 100%;
+    width: 100%;
+    background: rgb(249,248,254);
+    background: linear-gradient(90deg, rgba(249,248,254,1) 0%, rgba(167,220,224,1) 130%);
+    font-family: "Roboto", sans-serif;    
+    color: #011E3F;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #011E3F;
+}
+
+.navbar-light .navbar-nav .active .nav-link{
+    font-weight: 500;
+    color: #011E3F;
+}
+
+.reg-btn{
+    background-color: #011E3F;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.reg-btn:hover{
+    background-color: #5196A6;
+}
+
+.card{
+    border: none;
+}
+.border{
+    color: #011E3F;
+}
+
+/* footer */
+footer{
+    background-color: #011E3F;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer img{
+    
+}

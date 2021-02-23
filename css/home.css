@@ -1,0 +1,166 @@
+@import "global.css";
+
+input{
+    color: #011E3F;
+    border-style: none;
+    width: 14rem;
+    background-color: white;
+}
+.search-btn{
+    background-color: #011E3F;
+    color: white;
+    font-weight: 700;
+}
+
+.search-btn:hover{
+    background-color: #5196A6;
+}
+
+.header-img{
+    background-image: url("../images/header-backhround.svg");
+    height: 250px;
+    background-position: left;
+    width: auto;
+    background-size: cover;
+}
+
+.header-icon{
+    position:relative;
+    right: 2rem;
+}
+
+
+
+/* about us */
+.img-redius{
+    border-radius: 1rem;
+}
+
+.us-btn{
+    background-color: #5196A6;
+    color: white;
+    font-weight: 500;
+}
+
+.us{
+    background-color: #F8F7FD;
+    margin-top: 6rem;
+
+}
+
+/* destination */
+.list-group-item{
+    background-color: #011e3f00;
+    border: none;
+}
+.list-group-item a{
+    color: #011E3F;
+    font-weight: 500;
+}
+.list-group-item.active{
+    background-color: #011e3f00;
+    
+    
+}
+.li-active a{
+    color:#5196A6;
+    border-bottom: solid .1rem #5196A6;
+    font-weight: 700; 
+}
+
+/* destination */
+.card{
+    color: #011E3F;
+}
+.card-title{
+    font-weight: 700;
+}
+.rating{
+    color: #F4B316;
+}
+.money{
+    color: #5196A6;
+    font-weight: 700;
+}
+
+/* video */
+.video{
+    height: 500px;
+    object-fit: cover;
+}
+
+.fa-play-circle{
+    margin: 0;
+    position: absolute;  
+    top: 50%;                       
+    transform: translate(0, -50%);
+}
+
+/* recent */
+.recent{
+    background-color: #F8F7FD;
+}
+
+/* tour */
+.tour-info{
+    font-size: .9rem;
+    line-height: 0%;
+    margin-top: auto;
+}
+.tour-info .para{
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.tour-info-2{
+    font-size: .7rem;
+    line-height: 0%;
+    margin-top: auto;
+}
+.tour-info-2 .para{
+    font-size: .5rem;
+    line-height: .8rem;
+}
+
+.tour{
+    background-image: 
+        linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(77,142,157,1) 95%, rgba(81,150,166,1) 100%),
+        url("../images/tour-1.jpg");
+    height: 450px;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.tour-2{
+    background-image: 
+        linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(77,142,157,1) 95%, rgba(81,150,166,1) 100%),
+        url("../images/tour-2.jpg");
+    height: 310px;
+    width: 310px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.tour-3{
+    background-image: 
+        linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(77,142,157,1) 95%, rgba(81,150,166,1) 100%),
+        url("../images/tour-3.jpg");
+    height: 310px;
+    width: 310px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.read-btn{
+    color: white;
+    background-color: #5196A6;
+    font-size: 0.8rem;
+}
+
+.blog-card{
+    font-size: .8rem;
+}
